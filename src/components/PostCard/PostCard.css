@@ -1,0 +1,25 @@
+.post-card {
+padding: 16px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background-color: #fff;
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.post-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.post-card__title {
+margin-bottom: 10px;
+font-size: 18px;
+}
+
+
+.post-card__body {
+font-size: 14px;
+color: #555;
+}
